@@ -9,6 +9,7 @@ import {StorageService} from "@core/services/storage.service";
 import {NgModule, Optional, SkipSelf} from '@angular/core';
 import {AuthService} from "@core/services/auth.service";
 import {BrowserModule} from '@angular/platform-browser';
+import {RouterModule} from '@angular/router';
 import {FlexLayoutModule} from "@angular/flex-layout";
 import {ApiService} from "@core/services/api.service";
 import {DaysPipe} from "@shared/pipes/days.pipe";
@@ -27,6 +28,7 @@ export function playerFactory(): any {
     HttpClientModule,
     MatSnackBarModule,
     BrowserAnimationsModule,
+    RouterModule,
     LottieModule.forRoot({player: playerFactory}),
   ],
   exports: [],
