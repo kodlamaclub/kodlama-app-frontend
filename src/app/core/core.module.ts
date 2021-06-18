@@ -15,6 +15,7 @@ import {ApiService} from "@core/services/api.service";
 import {DaysPipe} from "@shared/pipes/days.pipe";
 import {LottieModule} from "ngx-lottie";
 import player from "lottie-web";
+import {DesignModule} from "@design/design.module";
 
 export function playerFactory(): any {
   return player;
@@ -29,6 +30,7 @@ export function playerFactory(): any {
     MatSnackBarModule,
     BrowserAnimationsModule,
     RouterModule,
+    DesignModule,
     LottieModule.forRoot({player: playerFactory}),
   ],
   exports: [],
