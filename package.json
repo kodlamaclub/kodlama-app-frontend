@@ -22,6 +22,7 @@
     "@angular/platform-browser": "~12.0.4",
     "@angular/platform-browser-dynamic": "~12.0.4",
     "@angular/router": "~12.0.4",
+    "@ngneat/tailwind": "^7.0.3",
     "ngx-lottie": "^7.0.1",
     "rxjs": "~6.6.0",
     "tslib": "^2.1.0",
@@ -31,6 +32,7 @@
     "@angular-devkit/build-angular": "~12.0.4",
     "@angular/cli": "~12.0.4",
     "@angular/compiler-cli": "~12.0.4",
+    "@tailwindcss/forms": "0.3.3",
     "@types/jasmine": "~3.6.0",
     "@types/node": "^12.11.1",
     "gh-pages": "^3.2.2",
@@ -40,6 +42,7 @@
     "karma-coverage": "~2.0.3",
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "^1.5.0",
+    "tailwindcss": "2.2.2",
     "typescript": "~4.2.3"
   }
 }
