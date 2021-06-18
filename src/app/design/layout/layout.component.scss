@@ -1,0 +1,27 @@
+:host {
+  display: flex;
+  flex-direction: column;
+
+  overflow: hidden;
+
+  height: 100%;
+  min-height: 100%;
+  min-width: 100%;
+  width: 100%;
+}
+
+
+.main-layout {
+  max-width: 1232px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 24px;
+}
+
+header {
+  width: 100%
+}
+
+
+//layout top 24px
+//layout left right 2 rem
