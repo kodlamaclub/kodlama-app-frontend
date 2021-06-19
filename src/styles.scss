@@ -1,8 +1,10 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
-ul > li > i {
-  vertical-align: bottom;
-  margin-right: 12px;
-  margin-left: 20px;
+button:focus{
+  outline: none !important;
+}
+
+.mat-icon-button i, .mat-icon-button .mat-icon {
+  line-height: 13px !important;
 }
