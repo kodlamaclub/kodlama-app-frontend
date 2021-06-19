@@ -1,6 +1,6 @@
-<main style="width: 216px">
+<main style="height: 100%;" fxLayout="column">
   <app-logo></app-logo>
-  <ul class="font-semibold text-base" style="color:#808191;">
+  <ul class="font-semibold text-base" style="color:#808191; width: 216px;">
     <li routerLinkActive="active" [routerLink]="item.path" *ngFor="let item of menuItems" class="flex flex-row h-14" style="place-content: center start">
       <div class="ml-6 flex flex-row place-content-center h-6 m-4">
         <img [src]="'./assets/icons/' + item.icon + '.svg'" alt="">
@@ -8,4 +8,6 @@
       </div>
     </li>
   </ul>
+  <div style="height: 100%"></div>
+  <app-user></app-user>
 </main>
