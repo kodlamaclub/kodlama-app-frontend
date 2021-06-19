@@ -1,0 +1,18 @@
+ul > li > i {
+  vertical-align: bottom;
+  margin-right: 12px;
+  margin-left: 20px;
+}
+
+ul > li {
+  cursor: pointer;
+}
+
+.click {
+  background-color: #2f3ced;
+  color: #ffffff;
+  border-radius: 0 0.8em 0.8rem 0;
+  width: 11rem;
+  height: 2.8rem;
+  padding-top: 10px;
+}
