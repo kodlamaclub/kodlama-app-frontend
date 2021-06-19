@@ -12,4 +12,11 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  sliders=[
+    {
+      images:"dashboard",
+      title:"Nodejs Backend Geliştirici Bootcampi ",
+      content:"Nestjs, verimli, güvenilir ve ölçeklenebilir sunucu tarafı uygulamaları oluşturmak için bir Node.js frameworku."
+    }
+  ]
 }
