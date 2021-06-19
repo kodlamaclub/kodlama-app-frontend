@@ -1,8 +1,11 @@
-<div class="container m-8 text-3xl font-bold">
-  <span style="color: #11142d;">Educ8<span style="color:#ff7c5d;">.</span>club</span>
-</div>
-<ul  class="font-semibold text-base mt-14 " style="color:#808191;">
-  <li [class]="getItemClass()"><i class="material-icons">home</i>Anasayfa</li>
-  <li [innerHTML]="item.name" (click)="setCurrentItem(item)" [class]="getCurrentItemClass(item)" *ngFor="let item of items"></li>
-</ul>
-
+<main style="width: 216px">
+  <app-logo></app-logo>
+  <ul class="font-semibold text-base" style="color:#808191;">
+    <li routerLinkActive="active" [routerLink]="item.path" *ngFor="let item of menuItems" class="flex flex-row h-14" style="place-content: center start">
+      <div class="ml-6 flex flex-row place-content-center h-6 m-4">
+        <img [src]="'./assets/icons/' + item.icon + '.svg'" alt="">
+        <span class="ml-2">{{item.title}}</span>
+      </div>
+    </li>
+  </ul>
+</main>
