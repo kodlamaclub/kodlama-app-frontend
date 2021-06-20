@@ -15,7 +15,7 @@ export class HomeComponent implements OnInit {
   sliders=[
     {
       images:"dashboard",
-      title:"Nodejs Backend Geliştirici Bootcampi ",
+      title:"Nodejs Backend Geliştirici Bootcampı ",
       content:"Nestjs, verimli, güvenilir ve ölçeklenebilir sunucu tarafı uygulamaları oluşturmak için bir Node.js frameworku."
     }
   ]
