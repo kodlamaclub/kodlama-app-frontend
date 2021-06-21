@@ -1,0 +1,24 @@
+<svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="56" height="56" rx="16" fill="#FFCE73"/>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M27 44C35.8366 44 43 36.8366 43 28C43 19.1634 35.8366 12 27 12C18.1634 12 11 19.1634 11 28C11 36.8366 18.1634 44 27 44Z" fill="url(#paint0_linear)"/>
+  <g filter="url(#filter0_d)">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M27.4 32.4C28.21 32.4 28.8667 31.7434 28.8667 30.9333C28.8667 30.1233 28.21 29.4667 27.4 29.4667C26.59 29.4667 25.9333 30.1233 25.9333 30.9333C25.9333 31.7434 26.59 32.4 27.4 32.4Z" fill="#F7F7F7"/>
+  </g>
+  <path d="M35.5 27H34V23C34 21.9 33.1 21 32 21H28V19.5C28 18.12 26.88 17 25.5 17C24.12 17 23 18.12 23 19.5V21H19C17.9 21 17.01 21.9 17.01 23V26.8H18.5C19.99 26.8 21.2 28.01 21.2 29.5C21.2 30.99 19.99 32.2 18.5 32.2H17V36C17 37.1 17.9 38 19 38H22.8V36.5C22.8 35.01 24.01 33.8 25.5 33.8C26.99 33.8 28.2 35.01 28.2 36.5V38H32C33.1 38 34 37.1 34 36V32H35.5C36.88 32 38 30.88 38 29.5C38 28.12 36.88 27 35.5 27Z" fill="black"/>
+  <path d="M35.5 27H34V23C34 21.9 33.1 21 32 21H28V19.5C28 18.12 26.88 17 25.5 17C24.12 17 23 18.12 23 19.5V21H19C17.9 21 17.01 21.9 17.01 23V26.8H18.5C19.99 26.8 21.2 28.01 21.2 29.5C21.2 30.99 19.99 32.2 18.5 32.2H17V36C17 37.1 17.9 38 19 38H22.8V36.5C22.8 35.01 24.01 33.8 25.5 33.8C26.99 33.8 28.2 35.01 28.2 36.5V38H32C33.1 38 34 37.1 34 36V32H35.5C36.88 32 38 30.88 38 29.5C38 28.12 36.88 27 35.5 27Z" fill="black"/>
+  <defs>
+    <filter id="filter0_d" x="24.9333" y="28.4667" width="4.93333" height="4.93333" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+      <feOffset/>
+      <feGaussianBlur stdDeviation="0.5"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.159703 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+    </filter>
+    <linearGradient id="paint0_linear" x1="11" y1="12" x2="11" y2="44" gradientUnits="userSpaceOnUse">
+      <stop stop-color="white"/>
+      <stop offset="1" stop-color="#F2F2F2"/>
+    </linearGradient>
+  </defs>
+</svg>
