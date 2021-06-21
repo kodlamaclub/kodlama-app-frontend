@@ -1,17 +1,40 @@
-<div class="ml-8 m-11">
-  <p class="text-2xl font-medium title">Merhaba Adem,</p>
-  <p class="text-4xl font-semibold title">Bu gün ne öğrenmek istersin?</p>
-</div>
-
-<div class="mt-4 ml-8 slider rounded-3xl grid grid-cols-2 gap-4" *ngFor="let slider of sliders">
-  <img class="w-96 h-96 col-end-1 col-span-2" [src]="'./assets/images/' + slider.images + '.svg'" alt="{{slider.title}}">
-  <div class="col-start-1 col-span-2 text-left text-white">
-    <div class="mt-12 font-semibold break-words text-3xl  sliderTitle">
-      {{slider.title}}
+<main fxLayout="row">
+  <div fxFlex="60" style="background:#FDFDFD;">
+    <div class="ml-8 m-11">
+      <p class="text-2xl font-medium title">Merhaba Adem,</p>
+      <p class="text-4xl font-semibold title">Bu gün ne öğrenmek istersin?</p>
     </div>
-    <div class="mt-3 text-sm leading-6">{{slider.content}}</div>
-    <button class="mt-4 w-40 h-14 rounded-2xl text-sm font-bold courseBtn">Kursa Katıl</button>
+    <div class="mt-4 ml-8 slider rounded-3xl grid grid-cols-2 gap-4" *ngFor="let slider of sliders">
+      <img class="w-96 h-96 col-end-1 col-span-2" [src]="'./assets/images/' + slider.images + '.svg'"
+           alt="{{slider.title}}">
+      <div class="col-start-1 col-span-2 text-left text-white">
+        <div class="mt-12 font-semibold break-words text-3xl sliderTitle">
+          {{slider.title}}
+        </div>
+        <div class="mt-3 text-sm leading-6">{{slider.content}}</div>
+        <button class="mt-4 w-40 h-14 rounded-2xl text-sm font-bold courseBtn">Kursa Katıl</button>
+      </div>
+    </div>
+    <app-browse></app-browse>
   </div>
-</div>
+  <div class=" background" fxFlex="40">
+    <div class="mt-8 ml-20" >
+      <form class="example-form" fxFlex="50">
+        <mat-form-field class="example-full-width">
+          <mat-label>Ara</mat-label>
+          <input matInput>
+          <mat-icon matSuffix class="material-icons-outlined">search</mat-icon>
+        </mat-form-field>
+      </form>
+      <div fxFlex="50">
+        <div class="ml-24 w-12 h-12 rounded-full cursor-pointer notification">
+          <img class="p-3" [src]="'./assets/icons/bell.svg'" alt="bell">
+        </div>
+      </div>
+    </div>
 
-<app-browse></app-browse>
+    <div class="text-base font-semibold mb-6 ml-10 mt-16">Devam Eden Kurslar</div>
+      <app-course-list-item [course]="course" *ngFor="let course of courses"></app-course-list-item>
+  </div>
+</main>
+
