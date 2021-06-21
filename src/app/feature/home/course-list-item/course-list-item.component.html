@@ -1,0 +1,11 @@
+<div fxLayout="row" class="bg-white rounded-2xl h-20 ml-8 mt-2 course">
+<img class="ml-6" [src]="'./assets/icons/'+course.image+'.svg'" width="50px" height="50px"/>
+  <div fxFlex="60" fxLayout="column" class="ml-3">
+    <span class="mt-5 text-base font-semibold cursor-pointer">{{course.title}}</span>
+    <span class="text-sm text-gray-500 cursor-pointer">{{course.kind}}</span>
+  </div>
+  <div fxFlex="20" fxLayoutAlign="end center" class="mr-4 cursor-pointer">
+    <img [src]="'./assets/icons/right-arrow.svg'" >
+  </div>
+</div>
+
