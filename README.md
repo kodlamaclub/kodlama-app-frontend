@@ -1,1 +1,1 @@
-# Educ8.club Frontend 🚀
+# Kodlama.club Frontend 🚀

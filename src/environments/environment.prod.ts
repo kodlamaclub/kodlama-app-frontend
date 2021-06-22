@@ -2,7 +2,7 @@ export const environment = {
   production: true,
   apiSettings: {
     protocol: 'https',
-    hostname: 'api.educ8.club',
+    hostname: 'api.kodlama.club',
     port: 443,
     pathPrefix: '',
   },
